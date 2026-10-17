@@ -1,0 +1,8 @@
+# Problem 13:Set.union() Operator
+# Hacker rank Link:https://www.hackerrank.com/challenges/py-set-union/problem
+n = int(input())
+english = set(map(int, input().split()))
+b = int(input())
+french = set(map(int, input().split()))
+
+print(len(english.union(french)))
